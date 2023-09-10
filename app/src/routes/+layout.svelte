@@ -6,9 +6,10 @@
     onMount(() => {
         // goto('/blog')
         console.log(
-            'Added a redirect in the main +layout.svelt so page always goes to the blog post'
+            'Added a redirect in the main +layout.svelt so page always goes to the required path'
         )
-        goto('/blog/post/inteligencia-artificial-no-mundo-atual')
+        goto('/links')
+        // goto('/blog/post/inteligencia-artificial-no-mundo-atual')
     })
 </script>
 

@@ -45,5 +45,11 @@ export default {
       title: 'Imagem de Perfil',
       type: 'customImage',
     },
+    {
+      name: 'social',
+      title: 'Social',
+      type: 'array',
+      of: [{type: 'social'}],
+    },
   ],
 }
